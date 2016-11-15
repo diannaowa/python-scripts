@@ -17,4 +17,12 @@ haproxy.py
 	backend web
 	      option httpchk HEAD / HTTP/1.1\r\nHost:\ 192.168.33.20
 	      server web1 192.168.33.20:80 check inter 2000 fall 3 rise
+	      
+	      
+	      
+docker.py
+
+封装了docker-py接口
+
+	pip install docker-py #安装docker-py
 
